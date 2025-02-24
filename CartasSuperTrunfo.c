@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 int main() {
-    //carta 1 Supertrunfo
+  
     char Estado1;           
     char Cod1[50];          
     char Nome1[50];         
@@ -16,7 +17,7 @@ int main() {
     printf("Digite o código da carta: \n");
     scanf("%s", Cod1);  
 
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome da cidade sem espaço: \n");
     scanf("%s", Nome1);  
 
     printf("Digite a quantidade da população: \n");
