@@ -17,7 +17,7 @@ int main() {
     printf("Digite o código da carta: \n");
     scanf("%s", Cod1);  
 
-    printf("Digite o nome da cidade sem espaço: \n");
+    printf("Digite o nome da cidade s/ espaço: \n");
     scanf("%s", Nome1);  
 
     printf("Digite a quantidade da população: \n");
