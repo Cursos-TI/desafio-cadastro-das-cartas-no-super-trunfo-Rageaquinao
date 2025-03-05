@@ -11,9 +11,9 @@ int main() {
     int pontost1; 
     float DensidP1;
     float PpC1;
+    float Superpoder1;
 
     //Carta 2
-
     char Estado2;           
     char Cod2[50];          
     char Nome2[50];         
@@ -23,6 +23,7 @@ int main() {
     int pontost2; 
     float DensidP2;
     float PpC2;
+    float Superpoder2;
               
 
     //Cadrastro Carta1
@@ -75,6 +76,8 @@ int main() {
       // Cálculos
       DensidP1 = Pop1 / Area1;  // Densidade Populacional
       PpC1 = Pib1 / Pop1;       // PIB per Capita
+      Superpoder1 = Pib1 + Area1 + DensidP1 + PpC1 + Pib1;
+      Superpoder2 = Pib2 + Area2 + DensidP2 + PpC2 + Pib2;
   
       // Exibindo os dados
       printf("Carta 1\n");
@@ -88,6 +91,7 @@ int main() {
       printf("Pontos Turísticos: %d\n", pontost1);
       printf("Densidade Populacional: %.2f habitantes/km²\n", DensidP1);
       printf("Pib per Capita: %.2f\n", PpC1);  // Exibindo o PIB per Capita com 2 casas decimais
+      printf("Super Poder: %.2f\n", Superpoder1);
 
       // Cálculos
       DensidP2 = Pop2 / Area2;  // Densidade Populacional
@@ -105,6 +109,11 @@ int main() {
       printf("Pontos Turísticos: %d\n", pontost2);
       printf("Densidade Populacional: %.2f habitantes/km²\n", DensidP2);
       printf("Pib per Capita: %.2f\n", PpC2);  // Exibindo o PIB per Capita com 2 casas decimais
+      printf("Super Poder: %.2f\n", Superpoder2);
+
+      printf("-------------------Comparações----------------------");
+      
+
     
     return 0;
 }
