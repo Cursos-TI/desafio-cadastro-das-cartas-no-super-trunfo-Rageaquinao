@@ -26,47 +26,47 @@ int main() {
               
 
     //Cadrastro Carta1
-    printf("Digite a letra do estado: \n");
+    printf("Digite a letra do estado: \n"); // letra que defina um País entre A e H
     scanf("%c", &Estado1);  
 
-    printf("Digite o código da carta: \n");
+    printf("Digite o código da carta: \n"); // Cód numérico entre 01 e 04 identificando a cidade do País
     scanf("%s", Cod1);  
 
-    printf("Digite o nome da cidade s/ espaço: \n");
+    printf("Digite o nome da cidade s/ espaço: \n"); // Nome da cidade
     scanf("%s", Nome1);  
 
-    printf("Digite a quantidade da população: \n");
+    printf("Digite a quantidade da população: \n"); // Populção da cidade
     scanf("%f", &Pop1);
 
-    printf("Digite a área em km²: \n");
+    printf("Digite a área em km²: \n"); // tamanho do espaço da cidade
     scanf("%f", &Area1);
 
-    printf("Digite o PIB da cidade: \n");
+    printf("Digite o PIB da cidade: \n"); //Pib
     scanf("%f", &Pib1); 
 
-    printf("Digite os pontos do Turísticos: \n");
+    printf("Digite os pontos do Turísticos: \n"); // quanidade de pontos turísticos
     scanf("%d", &pontost1);  
 
     //Cadrastro Carta2
-    printf("Digite a letra do estado: \n");
+    printf("Digite a letra do estado: \n"); // letra que defina um País entre A e H
     scanf("%c", &Estado2);  
 
-    printf("Digite o código da carta: \n");
+    printf("Digite o código da carta: \n"); // Cód numérico entre 01 e 04 identificando a cidade do País
     scanf("%s", Cod2);  
 
-    printf("Digite o nome da cidade s/ espaço: \n");
+    printf("Digite o nome da cidade s/ espaço: \n"); // Nome da cidade
     scanf("%s", Nome2);  
 
-    printf("Digite a quantidade da população: \n");
+    printf("Digite a quantidade da população: \n"); // Populção da cidade
     scanf("%f", &Pop2);
 
-    printf("Digite a área em km²: \n");
+    printf("Digite a área em km²: \n"); // tamanho do espaço da cidade
     scanf("%f", &Area2);
 
-    printf("Digite o PIB da cidade: \n");
+    printf("Digite o PIB da cidade: \n"); //Pib
     scanf("%f", &Pib2); 
 
-    printf("Digite os pontos do Turísticos: \n");
+    printf("Digite os pontos do Turísticos: \n"); // quanidade de pontos turísticos
     scanf("%d", &pontost2);  
 
 
