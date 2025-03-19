@@ -2,6 +2,7 @@
 
 int main() {
     // Carta 1
+    char Carta1;
     char Estado1;
     char Cod1[50];
     char Nome1[50];
@@ -14,6 +15,7 @@ int main() {
     float Superpoder1;
 
     // Carta 2
+    char Carta2;
     char Estado2;
     char Cod2[50];
     char Nome2[50];
@@ -108,38 +110,63 @@ int main() {
     resultadopopulcao1 = Pop1;
     resultadopopulcao2 = Pop2;
 
-    if (resultadopopulcao1 > resultadopopulcao2)
-        printf("A população da Carta 1 (%.2f) é maior que a da Carta 2 (%.2f)\n", resultadopopulcao1, resultadopopulcao2);
-
+    if (resultadopopulcao1 > resultadopopulcao2){
+        printf("Carta1 Venceu");
+    } else {
+        printf("Carta2 Venceu");
+    }
     resultadoarea1 = Area1;
     resultadoarea2 = Area2;
     if (resultadoarea1 > resultadoarea2)
-        printf("A área da Carta 1 (%.2f) é maior que a da Carta 2 (%.2f)\n", resultadoarea1, resultadoarea2);
-
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
     resultadopib1 = Pib1;
     resultadopib2 = Pib2;
     if (resultadopib1 > resultadopib2)
-        printf("O PIB da Carta 1 (%.2f) é maior que o da Carta 2 (%.2f)\n", resultadopib1, resultadopib2);
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
 
     resultadopontos1 = pontost1;
     resultadopontos2 = pontost2;
     if (resultadopontos1 > resultadopontos2)
-        printf("Os pontos turísticos da Carta 1 (%d) são maiores que os da Carta 2 (%d)\n", resultadopontos1, resultadopontos2);
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
 
     resultadodensidade1 = DensidP1;
     resultadodensidade2 = DensidP2;
     if (resultadodensidade1 > resultadodensidade2)
-        printf("A densidade populacional da Carta 1 (%.2f) é maior que a da Carta 2 (%.2f)\n", resultadodensidade1, resultadodensidade2);
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
 
     resultadopibpC1 = PpC1;
     resultadopibpC2 = PpC2;
     if (resultadopibpC1 > resultadopibpC2)
-        printf("O PIB per capita da Carta 1 (%.2f) é maior que o da Carta 2 (%.2f)\n", resultadopibpC1, resultadopibpC2);
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
 
     resultadoSuperPoder1 = Superpoder1;
     resultadoSuperPoder2 = Superpoder2;
     if (resultadoSuperPoder1 > resultadoSuperPoder2)
-        printf("O Super Poder da Carta 1 (%.2f) é maior que o da Carta 2 (%.2f)\n", resultadoSuperPoder1, resultadoSuperPoder2);
+    {
+        printf("Carta1 Venceu\n");
+    } else {
+        printf("Carta2 Venceu\n");
+    }
 
     return 0;
 }
